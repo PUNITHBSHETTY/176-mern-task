@@ -1,0 +1,70 @@
+body {
+    font-family: Arial;
+    background: #f4f6fa;
+}
+
+.form-box {
+    width: 350px;
+    margin: 30px auto;
+    padding: 20px;
+    border: 2px solid #243b64;
+    background: white;
+}
+
+.form-group {
+    display: flex;
+    align-items: center;
+    margin: 12px;
+}
+
+label {
+    width: 120px;
+    color: #243b64;
+    font-size: 18px;
+}
+
+input {
+    width: 130px;
+    padding: 8px;
+    border: 1px solid #243b64;
+}
+
+form button {
+    display: block;
+    margin: 30px 10px 0 auto;
+}
+
+button {
+    padding: 8px 15px;
+    background: #243b64;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background: white;
+}
+
+th, td {
+    border: 1px solid #243b64;
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    background: #243b64;
+    color: white;
+}
+
+td button {
+    margin: 3px;
+    background: #267a62;
+}
+
+td button:hover {
+    background: #18523f;
+}
